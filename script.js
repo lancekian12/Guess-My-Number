@@ -41,30 +41,6 @@ const handleGuess = function () {
       document.querySelector('body').style.backgroundColor = 'red';
     }
 
-    //   //When the player guess too high
-    // } else if (guess > secretNumber) {
-    //   if (score > 1) {
-    //     message.textContent = '📈 Too High!';
-    //     score--;
-    //     scoreMessage.textContent = score;
-    //   } else {
-    //     message.textContent = '💥 You lost the game!';
-    //     scoreMessage.textContent = 0;
-    //     document.querySelector('body').style.backgroundColor = 'red';
-    //   }
-
-    //   //When the player guess too low
-    // } else if (guess < secretNumber) {
-    //   if (score > 1) {
-    //     message.textContent = '📉 Too Low!';
-    //     score--;
-    //     scoreMessage.textContent = score;
-    //   } else {
-    //     message.textContent = '💥 You lost the game!';
-    //     scoreMessage.textContent = 0;
-    //     document.querySelector('body').style.backgroundColor = 'red';
-    //   }
-    // }
   }
 };
 
